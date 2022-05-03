@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>ToDo List App</title>
 </head>
 <body>
-    
-</body>
-</html>
+    <div class="wrapper">
+        <div class="task-input">
+          <img src="./assets/img/bars.svg" alt="icon">
+          <input type="text" placeholder="Adicionar um novo item">
+        </div>
+        <div class="controls">
+          <div class="filters">
+            <span class="active" id="all">Todos</span>
+            <span id="pending">Pendentes</span>
+            <span id="completed">Completos</span>
+          </div>
+          <button class="clear-btn">Limpar tudo</button>
+        </div>
+        <ul class="task-box"></ul>
+      </div>
+  
+      <script src="./assets/js/script.js"></script>
+  
+    </body>
+  </html>
